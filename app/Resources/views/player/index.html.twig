@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="wrapper">
+        <div id="container">
+            {{ form_start(search_form) }}
+            {{ form_widget(search_form) }}
+            {{ form_end(search_form) }}
+        </div>
+    </div>
+{% endblock %}
